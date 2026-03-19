@@ -38,7 +38,7 @@ class GradientButton extends StatelessWidget {
             text,
             style: GoogleFonts.lateef(
               color: Colors.white,
-              fontSize: 30,
+              fontSize: 25,
               fontWeight: FontWeight.bold,
               height: 1,
             ),

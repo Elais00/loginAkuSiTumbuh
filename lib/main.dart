@@ -1,4 +1,5 @@
 import 'package:akusitumbuh/screens/login_page.dart';
+import 'package:akusitumbuh/screens/sign_up_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
