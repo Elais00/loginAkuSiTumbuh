@@ -2,7 +2,7 @@ name: akusitumbuh
 description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
 
 # The following defines the version and build number for your application.
 # A version number is three numbers separated by dots, like 1.2.43
@@ -37,6 +37,8 @@ dependencies:
   flutter_custom_clippers: ^2.1.0
   google_fonts: ^8.0.2
   font_awesome_flutter: ^11.0.0
+  flutter_map: ^8.3.0
+  latlong2: ^0.9.1
 
 dev_dependencies:
   flutter_test:
@@ -54,15 +56,20 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
-
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
+  assets:
+    - assets/19.01_Bangka/19.01_Bangka.geojson
+    - assets/19.02_Belitung/19.02_Belitung.geojson
+    - assets/19.03_Bangka_Selatan/19.03_Bangka_Selatan.geojson
+    - assets/19.04_Bangka_Tengah/19.04_Bangka_Tengah.geojson
+    - assets/19.05_Bangka_Barat/19.05_Bangka_Barat.geojson
+    - assets/19.06_Belitung_Timur/19.06_Belitung_Timur.geojson
+
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

@@ -1,4 +1,5 @@
 import 'package:akusitumbuh/screens/login_page.dart';
+import 'package:akusitumbuh/screens/map_page.dart';
 import 'package:akusitumbuh/screens/sign_up_page.dart';
 import 'package:flutter/material.dart';
 
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: LoginPage(),
+      home: MapsStuntingScreen(),
     );
   }
 }
